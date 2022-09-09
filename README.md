@@ -7,7 +7,7 @@ Used the following Technologies:
 1. HyperText Markup Language (HTML)
 2. Cascading Style Sheets (CSS)
 
-Status of the Website: Incomplete.
+Status of the Website: Incomplete. |
 Tasks not completed: Light Mode, Responsiveness of the Website.
 
 Screenshot of Output:

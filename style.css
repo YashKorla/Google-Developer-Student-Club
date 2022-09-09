@@ -1,0 +1,444 @@
+/* Common for All */
+* {
+    background-color: #070E27;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+body {
+    margin: 0px;
+    background-color: #070E27;
+}
+
+.bg-dark-blue {
+    background-color: #070E27;
+}
+
+.bg-blue {
+    background-color: #162044;
+}
+
+.bg-light-blue {
+    background-color: blue;
+}
+
+.bg-line {
+    border: 1px solid #162044;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.bg-light-grey {
+    background-color: rgb(191, 207, 240);
+}
+
+/* Div Classes */
+.header {
+    width: 100%;
+    height: 7%;
+    border-bottom: 1px solid black;
+    padding-top: 1%;
+}
+
+.footer {
+    border-top: 1px solid black;
+    width: 100%;
+    height: 7%;
+    margin-top: 5%;
+    padding-top: 2%;
+}
+
+.logo>.mg-left-10, .logo>.mg-right-75,
+.login, .social-media-symbols, .tnc, .rights {
+    display: inline;
+}
+
+.left-text, .right-text {
+    display: inline-block;
+}
+
+.left-text, .right-text {
+    max-width: 40%;
+    flex-wrap: wrap;
+}
+
+.features-text {
+    width: 20%;
+}
+
+.start {
+    border-radius: 20px;
+    width: 80%;
+    height: 25%;
+    display: block;
+}
+
+.left-div {
+    width: 50%;
+    height: 50%;
+    padding-top: 4%;
+    display: inline-block;
+}
+
+.right-div {
+    width: 40%;
+    height: 50%;
+    padding-top: 4%;
+    display: inline-block;
+}
+
+/* Margins */
+.mg-top-px {
+    margin-top: 190px;
+}
+
+.mg-top-2 {
+    margin-top: 2%;
+}
+
+.mg-top-5 {
+    margin-top: 5%;
+}
+
+.mg-top-10 {
+    margin-top: 10%;
+}
+
+.mg-left-2 {
+    margin-left: 2%;
+}
+
+.mg-left-5 {
+    margin-left: 5%;
+}
+
+.mg-left-10 {
+    margin-left: 10%;
+}
+
+.mg-left-15 {
+    margin-left: 15%;
+}
+
+.mg-left-20 {
+    margin-left: 40%;
+}
+
+.mg-right-1 {
+    margin-right: 5px;
+}
+
+.mg-right-2 {
+    margin-right: 2%;
+}
+
+.mg-right-5 {
+    margin-right: 5%;
+}
+
+.mg-right-10 {
+    margin-right: 10%;
+}
+
+.mg-right-13 {
+    margin-right: 13%;
+}
+
+.mg-right-15 {
+    margin-right: 15.5%;
+}
+
+.mg-right-25 {
+    margin-right: 25%;
+}
+
+.mg-right-30 {
+    margin-right: 30%;
+}
+
+.mg-right-35 {
+    margin-right: 35%;
+}
+
+.mg-right-75 {
+    margin-right: 75%;
+}
+
+.mg-bottom-5 {
+    margin-bottom: 5%;
+}
+
+/* Text Formats */
+.saflow {
+    font-weight: bold;
+    font-size: 25px; 
+    padding: 0%;
+    margin: 0%;
+}
+
+.title-text {
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+.para-text {
+    display: block;
+    font-weight: bold;
+    font-size: 18px;
+    color: #6d7db7;
+}
+
+.para-text-2 {
+    display: block;
+    font-size: 15px;
+    color: #6d7db7;
+}
+
+.card-text {
+    color: #6d7db7;
+}
+
+.start-text {
+    color: #aeb6d2;
+}
+
+.start-text-title {
+    display: block;
+    margin-top: 2%;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.bg-card-text {
+    background-color: #689EFF;
+}
+
+.blank-text {
+    font-size: 8px;
+    display: block;
+    color: blue;
+}
+
+/* Button Formats */
+.login-btn {
+    width: 5%;
+    height: 70%;
+    border: none;
+    border-radius: 5px;
+    margin-top: 5px;
+    padding: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.price-btn {
+    width: 30%;
+    height: 5%;
+    border: none;
+    border-radius: 5px;
+    margin-top: 5px;
+    padding: 10px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.start-btn {
+    width: 50%;
+    height: 70%;
+    border: none;
+    border-radius: 10px;
+    font-size: x-large;
+    cursor: pointer;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 0%;
+}
+
+/* Image Styling */
+.saflow-img {
+    width: 1.5%;
+    height: 35%;
+    margin-right: 1%;
+}
+
+.img-size {
+    width: 20px;
+    height: 20px;
+}
+
+.features-symbols {
+    width: 15%;
+    height: 15%;
+}
+
+.start-btn-img {
+    width: 40%;
+    height: 30%;
+    margin: 0%;
+    padding: 0%;
+}
+
+.macos-img {
+    width: 90%;
+    height: 100%;
+}
+
+/* Direct Tag Styling */
+img {
+    width: 5%;
+    height: 5%;
+    border: none;
+}
+
+/* Card Design */
+.card {
+    width: 40%;
+    height: 30%;
+    border: 1px solid #162044;
+    border-radius: 15px;
+    display: inline-block;
+    flex-wrap: wrap;
+    padding-left: 1%;
+}
+
+.card-inner-div {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#card1:hover, #card2:hover, #card3:hover,
+#card4:hover, #card5:hover, #card6:hover {
+    cursor: pointer;
+    background-color: #162044;
+}
+
+#card1:hover #features1, #card1:hover #title1, #card1:hover #text1 {
+    cursor: pointer;
+    background-color: #162044;
+}
+
+#card2:hover #features2, #card2:hover #title2, #card2:hover #text2 {
+    cursor: pointer;
+    background-color: #162044;
+}
+
+#card3:hover #features3, #card3:hover #title3, #card3:hover #text3 {
+    cursor: pointer;
+    background-color: #162044;
+}
+
+#card4:hover #features4, #card4:hover #title4, #card4:hover #text4 {
+    cursor: pointer;
+    background-color: #162044;
+}
+
+#card5:hover #features5, #card5:hover #title5, #card5:hover #text5 {
+    cursor: pointer;
+    background-color: #162044;
+}
+
+#card6:hover #features6, #card6:hover #title6, #card6:hover #text6 {
+    cursor: pointer;
+    background-color: #162044;
+}
+
+/* MacOS Browser Styles
+.macos-safari-header {
+    width: 80%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.safari-window-btn {
+    width: 1%;
+}
+
+.safari-navbar-btn {
+    width: 2%;
+}
+
+.safari-url-bar {
+    width: 20%;
+    height: 3%;
+    padding-bottom: 6px;
+    background-color: blue;
+}
+
+.safari-body {
+    width: 78.5%;
+    padding: 10px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.safari-left-bar {
+    display: inline-block;
+    width: 15%;
+    height: 50%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.safari-saflow-img {
+    width: 20%;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+
+.safari-oval {
+    width: 93%;
+    height: 7%;
+    background-color: white;
+}
+
+.safari-right-bar {
+    display: inline-block;
+    width: 82%;
+    height: 50%;
+    border-radius: 10px;
+}
+
+.safari-right-top {
+    width: 100%;
+}
+
+.safari-right-search {
+    width: 75%;
+    height: 10%;
+    border: 2px solid white;
+    border-radius: 10px;
+    text-align: left;
+    color: #070E27;
+}
+
+.safari-search-icon {
+    width: 3%;
+    height: 60%;
+}
+
+.safari-right-back {
+    width: 5%;
+    height: 10%;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.safari-back {
+    width: 50%;
+    height: 100%;
+}
+
+.safari-right-history {
+    width: 5%;
+    height: 10%;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.safari-history {
+    background-color: white;
+} */
